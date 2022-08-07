@@ -27,7 +27,10 @@ alias tmlist="tmux list-sessions"
 alias tmattach="tmux attach -t"
 alias tmdetach="tmux detach -s"
 alias tmkill="tmux kill-session -t"
+alias tmrename="tmux rename-session"
 
+# Productivity
+alias wa="cd ~/Documents/projects"
 
 # misc
 alias chrome="google-chrome"
