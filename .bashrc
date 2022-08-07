@@ -61,3 +61,11 @@ done
 if [ -f ~/.bash_aliases ]; then
 . ~/.bash_aliases
 fi
+
+if [ -f ~/.bash_functions ]; then
+. ~/.bash_functions
+fi
+
+# Disable Homebrew Analytics
+export HOMEBREW_NO_ANALYTICS=1
+
